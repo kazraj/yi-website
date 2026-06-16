@@ -57,11 +57,18 @@
     cursor: pointer;
 }
 
+.menu-btn {
+    display: none;
+}
+
 @media (max-width: 900px) {
     .navbar {
         display: grid;
         grid-template-columns: 1fr auto 1fr;
         align-items: center;
+
+        height: 70px;
+        padding: 0 20px;
     }
 
     .menu-btn {
@@ -76,13 +83,13 @@
     .lang-btn {
         display: block;
         justify-self: end;
+        padding: 8px 16px;
+        font-size: 14px;
     }
-
 
     .logo img {
         height: 40px;
     }
-
 
     .nav-links {
         position: fixed;
