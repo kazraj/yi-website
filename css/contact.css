@@ -1,0 +1,86 @@
+.page-hero {
+    min-height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 160px 30px 80px;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(109,94,245,.20),
+            transparent 40%
+        ),
+        #03061D;
+}
+
+.page-tag {
+    color: #6D5EF5;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.page-hero h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+
+.page-hero p {
+    max-width: 700px;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #d7d7d7;
+}
+
+.contact-links {
+    max-width: 700px;
+    margin: auto;
+    padding: 120px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-btn {
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 25px;
+
+    min-height: 120px;
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    backdrop-filter: blur(15px);
+    transition: .3s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-8px);
+    border-color: #6D5EF5;
+    background: rgba(109,94,245,.08);
+}
+
+.contact-btn h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-btn p {
+    color: #d1d5db;
+    font-size: 18px;
+}

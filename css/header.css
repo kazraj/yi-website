@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 8%;
+
+    background: rgba(3, 6, 29, .75);
+    backdrop-filter: blur(20px);
+
+    z-index: 1000;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.nav-links a:hover {
+    color: #6D5EF5;
+}
+
+.lang-btn {
+    border: none;
+    border-radius: 50px;
+
+    padding: 12px 22px;
+
+    background: rgba(255, 255, 255, .08);
+    color: white;
+
+    cursor: pointer;
+}

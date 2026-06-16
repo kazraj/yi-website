@@ -1,0 +1,95 @@
+.page-hero {
+    min-height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 160px 30px 80px;
+
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(109,94,245,.20),
+            transparent 40%
+        ),
+        #03061D;
+}
+
+.page-tag {
+    color: #6D5EF5;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.page-hero h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+}
+
+.page-hero p {
+    max-width: 700px;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #d7d7d7;
+}
+
+/* Timeline */
+
+.timeline-section {
+    padding: 120px 8%;
+}
+
+.timeline {
+    max-width: 900px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.step {
+    background: rgba(255,255,255,.05);
+
+    border: 1px solid
+            rgba(255,255,255,.08);
+
+    border-radius: 25px;
+
+    padding: 40px;
+
+    backdrop-filter: blur(15px);
+
+    transition: .3s;
+}
+
+.step:hover {
+    transform: translateY(-8px);
+    border-color: #6D5EF5;
+}
+
+.number {
+    display: inline-block;
+
+    color: #6D5EF5;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.step h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.step p {
+    color: #d1d5db;
+    line-height: 1.8;
+    font-size: 18px;
+}
