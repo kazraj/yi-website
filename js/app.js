@@ -24,3 +24,14 @@ if (menuBtn && navLinks) {
         navLinks.classList.toggle("active");
     });
 }
+
+// Footer direction
+const footer = document.querySelector(".footer");
+if (footer && window.location.pathname.includes("/en/")) {
+    footer.classList.add("footer-en");
+}
+
+// Nav direction
+if (navLinks && window.location.pathname.includes("/en/")) {
+    navLinks.classList.add("nav-links-en");
+}

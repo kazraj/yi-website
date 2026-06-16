@@ -41,6 +41,21 @@
     color: #6D5EF5;
 }
 
+.nav-links {
+    right: -100%;
+}
+.nav-links.active {
+    right: 0;
+}
+
+.nav-links-en {
+    right: auto;
+    left: -100%;
+}
+.nav-links-en.active {
+    left: 0;
+}
+
 .lang-btn {
     border: none;
     border-radius: 50px;
