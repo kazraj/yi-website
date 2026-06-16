@@ -61,6 +61,31 @@
     display: none;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 8%;
+
+    background: rgba(3, 6, 29, .75);
+    backdrop-filter: blur(20px);
+
+    z-index: 1000;
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.lang-btn {
+    margin-right: auto;
+}
+
 @media (max-width: 900px) {
     .navbar {
         display: grid;
