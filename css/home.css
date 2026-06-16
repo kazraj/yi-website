@@ -38,18 +38,21 @@
 .hero h1 {
     font-size: 48px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .hero h2 {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 30px;
+    color: rgba(255,255,255,.75);
 }
 
 .hero p {
     max-width: 700px;
     font-size: 20px;
     line-height: 1.8;
+    color: rgba(255,255,255,.70);
 }
 
 .buttons {

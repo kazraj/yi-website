@@ -10,8 +10,10 @@
 
     padding: 0 clamp(20px, 4vw, 50px);
 
-    background: rgba(3, 6, 29, .75);
+    background: rgba(3, 6, 29, .85);
     backdrop-filter: blur(20px);
+
+    border-bottom: 1px solid rgba(255,255,255,.06);
 
     z-index: 1000;
 }
@@ -45,7 +47,7 @@
 
     padding: 12px 22px;
 
-    background: rgba(255, 255, 255, .08);
+    background: rgba(255, 255, 255, .10);
     color: white;
 
     cursor: pointer;
@@ -59,11 +61,6 @@
     font-size: 32px;
     cursor: pointer;
 }
-
-.menu-btn {
-    display: none;
-}
-
 
 @media (max-width: 900px) {
     .navbar {

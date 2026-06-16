@@ -20,7 +20,7 @@
 }
 
 .page-tag {
-    color: #6D5EF5;
+    color: #a89ef8;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -28,19 +28,21 @@
 .page-hero h1 {
     font-size: 56px;
     margin-bottom: 25px;
+    color: #ffffff;
 }
 
 .page-hero p {
     max-width: 700px;
     font-size: 22px;
     line-height: 1.8;
-    color: #d7d7d7;
+    color: rgba(255,255,255,.75);
 }
 
 .contact-links {
     max-width: 700px;
     margin: auto;
     padding: 120px 30px;
+    background: #F5F4FA;
 
     display: flex;
     flex-direction: column;
@@ -48,8 +50,8 @@
 }
 
 .contact-btn {
-    background: rgba(255,255,255,.05);
-    border: 1px solid rgba(255,255,255,.08);
+    background: #FFFFFF;
+    border: 1px solid rgba(109, 94, 245, 0.15);
     border-radius: 25px;
 
     min-height: 120px;
@@ -62,25 +64,26 @@
 
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: #1A1150;
 
-    backdrop-filter: blur(15px);
+    box-shadow: 0 2px 20px rgba(109, 94, 245, 0.07);
     transition: .3s;
 }
 
 .contact-btn:hover {
     transform: translateY(-8px);
     border-color: #6D5EF5;
-    background: rgba(109,94,245,.08);
+    box-shadow: 0 10px 40px rgba(109, 94, 245, 0.15);
 }
 
 .contact-btn h3 {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #1A1150;
 }
 
 .contact-btn p {
-    color: #d1d5db;
+    color: #5A5080;
     font-size: 18px;
 }

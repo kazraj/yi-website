@@ -1,9 +1,10 @@
 .section {
     padding: 120px 10%;
+    background: #F5F4FA;
 }
 
 .dark-section {
-    background: #060A26;
+    background: #ECEAF5;
 }
 
 .section-tag {
@@ -18,14 +19,16 @@
 .section-title {
     font-size: 48px;
     margin-bottom: 35px;
+    color: #1A1150;
 }
 
 .section-text {
     font-size: 22px;
     line-height: 2;
-    color: #d7d7d7;
+    color: #4A4070;
     max-width: 900px;
 }
+
 .page-hero {
     min-height: 55vh;
 
@@ -48,7 +51,7 @@
 }
 
 .page-tag {
-    color: #6D5EF5;
+    color: #a89ef8;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -56,11 +59,12 @@
 .page-hero h1 {
     font-size: 56px;
     margin-bottom: 25px;
+    color: #ffffff;
 }
 
 .page-hero p {
     max-width: 700px;
     font-size: 22px;
     line-height: 1.8;
-    color: #d7d7d7;
+    color: rgba(255,255,255,.75);
 }

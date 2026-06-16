@@ -1,7 +1,6 @@
 .footer {
-    background: #03061D;
-    border-top:
-        1px solid rgba(255,255,255,.08);
+    background: #ECEAF5;
+    border-top: 1px solid rgba(109, 94, 245, 0.15);
 
     padding: 70px 8% 30px;
 
@@ -13,7 +12,7 @@
 }
 
 .footer-title {
-    color: #fff;
+    color: #1A1150;
     font-size: 24px;
     font-weight: 600;
 
@@ -21,8 +20,7 @@
 }
 
 .footer-text {
-    color:
-        rgba(255,255,255,.7);
+    color: #4A4070;
 
     font-size: 16px;
     line-height: 1.8;
@@ -40,7 +38,7 @@
 }
 
 .footer-links a {
-    color: #fff;
+    color: #3D3070;
     transition: .3s;
 }
 
@@ -49,8 +47,6 @@
 }
 
 .footer-copy {
-    color:
-        rgba(255,255,255,.5);
-
+    color: #8A80A0;
     font-size: 14px;
 }
