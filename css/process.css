@@ -96,3 +96,20 @@
     line-height: 1.8;
     font-size: 18px;
 }
+
+.step-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 22px;
+    background:#6D5EF5;
+    color:#FFFFFF;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    text-decoration:none;
+    transition:.3s;
+}
+.step-btn:hover{
+    background:#5A4CE0;
+    transform:translateY(-3px);
+}
