@@ -1,5 +1,5 @@
 .footer {
-    background: #ECEAF5;
+    background: #160A30;
     border-top: 1px solid rgba(109, 94, 245, 0.15);
 
     padding: 60px 8% 0;
@@ -17,7 +17,7 @@
 .footer-brand-name {
     font-size: 22px;
     font-weight: 700;
-    color: #1A1150;
+    color: #F5F2FF;
     margin: 0 0 10px;
 }
 
@@ -30,7 +30,7 @@
 
 .footer-text {
     font-size: 15px;
-    color: #4A4070;
+    color: #B5A9DE;
     line-height: 1.8;
     margin: 0 0 24px;
     max-width: 280px;
@@ -45,7 +45,7 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: white;
+    background: #1E103F;
     border: 1px solid rgba(109, 94, 245, 0.2);
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
 .footer-col-title {
     font-size: 13px;
     font-weight: 700;
-    color: #1A1150;
+    color: #F5F2FF;
     letter-spacing: 2px;
     margin: 0 0 20px;
 }
@@ -78,7 +78,7 @@
 
 .footer-col-links a {
     font-size: 15px;
-    color: #4A4070;
+    color: #B5A9DE;
     text-decoration: none;
     transition: .3s;
 }
@@ -89,7 +89,7 @@
 
 .footer-contact-link {
     font-size: 15px;
-    color: #4A4070;
+    color: #B5A9DE;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -116,7 +116,7 @@
 
 .footer-copy {
     font-size: 13px;
-    color: #8A80A0;
+    color: #A29AC4;
     margin: 0;
 }
 

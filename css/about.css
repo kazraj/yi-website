@@ -1,10 +1,10 @@
 .section {
     padding: 120px 10%;
-    background: #F5F4FA;
+    background: #0E051F;
 }
 
 .dark-section {
-    background: #ECEAF5;
+    background: #160A30;
 }
 
 .section-tag {
@@ -19,13 +19,13 @@
 .section-title {
     font-size: 48px;
     margin-bottom: 35px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .section-text {
     font-size: 22px;
     line-height: 2;
-    color: #4A4070;
+    color: #B5A9DE;
     max-width: 900px;
 }
 
@@ -44,14 +44,14 @@
     background:
         radial-gradient(
             circle at top right,
-            rgba(109,94,245,.20),
+            rgba(109, 94, 245,.20),
             transparent 40%
         ),
-        #03061D;
+        #06031D;
 }
 
 .page-tag {
-    color: #a89ef8;
+    color: #A79EF8;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -59,12 +59,12 @@
 .page-hero h1 {
     font-size: 56px;
     margin-bottom: 25px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .page-hero p {
     max-width: 700px;
     font-size: 22px;
     line-height: 1.8;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255,.75);
 }

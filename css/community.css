@@ -13,14 +13,14 @@
     background:
         radial-gradient(
             circle at top right,
-            rgba(109,94,245,.20),
+            rgba(109, 94, 245,.20),
             transparent 40%
         ),
-        #03061D;
+        #06031D;
 }
 
 .page-tag {
-    color: #a89ef8;
+    color: #A79EF8;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -28,26 +28,26 @@
 .page-hero h1 {
     font-size: 56px;
     margin-bottom: 25px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .page-hero p {
     max-width: 700px;
     font-size: 22px;
     line-height: 1.8;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255,.75);
 }
 
 .section {
     padding: 120px 8%;
-    background: #F5F4FA;
+    background: #0E051F;
 }
 
 .section-title {
     text-align: center;
     font-size: 42px;
     margin-bottom: 60px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .cards {
@@ -59,7 +59,7 @@
 }
 
 .card {
-    background: #FFFFFF;
+    background: #1E103F;
 
     border: 1px solid rgba(109, 94, 245, 0.15);
 
@@ -88,11 +88,11 @@
 .card h3 {
     font-size: 26px;
     margin-bottom: 15px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .card p {
-    color: #5A5080;
+    color: #998CC4;
     line-height: 1.8;
 }
 
@@ -101,17 +101,17 @@
 .discord-section {
     padding: 120px 8%;
     text-align: center;
-    background: #ECEAF5;
+    background: #160A30;
 }
 
 .discord-section h2 {
     font-size: 48px;
     margin-bottom: 25px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .discord-section p {
-    color: #4A4070;
+    color: #B5A9DE;
     max-width: 700px;
     margin: auto;
     line-height: 1.8;

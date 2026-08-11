@@ -1,6 +1,6 @@
 .references-page{
     padding:120px 8%;
-    background:#F5F4FA;
+    background:#0E051F;
 }
 .references-container{
     max-width:1100px;
@@ -8,24 +8,24 @@
 }
 .reference-intro,
 .reference-note{
-    background:#FFFFFF;
-    border:1px solid rgba(109,94,245,.15);
+    background:#1E103F;
+    border:1px solid rgba(109, 94, 245,.15);
     border-radius:25px;
     padding:45px;
     margin-bottom:40px;
-    box-shadow:0 2px 20px rgba(109,94,245,.07);
+    box-shadow:0 2px 20px rgba(109, 94, 245,.07);
 }
 .reference-intro h2,
 .reference-note h2{
     font-size:34px;
     margin-bottom:20px;
-    color:#1A1150;
+    color:#F5F2FF;
 }
 .reference-intro p,
 .reference-note p{
     font-size:19px;
     line-height:2;
-    color:#4A4070;
+    color:#B5A9DE;
     margin-bottom:20px;
 }
 .reference-grid{
@@ -35,28 +35,28 @@
     margin-bottom:40px;
 }
 .reference-card{
-    background:#FFFFFF;
-    border:1px solid rgba(109,94,245,.15);
+    background:#1E103F;
+    border:1px solid rgba(109, 94, 245,.15);
     border-radius:24px;
     padding:35px;
     color:inherit;
     transition:.3s;
-    box-shadow:0 2px 20px rgba(109,94,245,.07);
+    box-shadow:0 2px 20px rgba(109, 94, 245,.07);
     display:block;
     text-decoration:none;
 }
 .reference-card:hover{
     transform:translateY(-8px);
     border-color:#6D5EF5;
-    box-shadow:0 10px 35px rgba(109,94,245,.12);
+    box-shadow:0 10px 35px rgba(109, 94, 245,.12);
 }
 .reference-card h3{
     font-size:28px;
     margin-bottom:15px;
-    color:#1A1150;
+    color:#F5F2FF;
 }
 .reference-card p{
-    color:#5A5080;
+    color:#998CC4;
     line-height:1.8;
     margin-bottom:25px;
 }

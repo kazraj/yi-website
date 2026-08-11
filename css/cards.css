@@ -9,7 +9,7 @@
 }
 
 .card {
-    background: #FFFFFF;
+    background: #1E103F;
 
     border: 1px solid rgba(109, 94, 245, 0.15);
 
@@ -36,11 +36,11 @@
 .card h3 {
     font-size: 26px;
     margin-bottom: 15px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .card p {
-    color: #5A5080;
+    color: #998CC4;
     line-height: 1.8;
     font-size: 17px;
 }

@@ -13,14 +13,14 @@
     background:
         radial-gradient(
             circle at top right,
-            rgba(109,94,245,.20),
+            rgba(109, 94, 245,.20),
             transparent 40%
         ),
-        #03061D;
+        #06031D;
 }
 
 .page-tag {
-    color: #a89ef8;
+    color: #A79EF8;
     letter-spacing: 4px;
     margin-bottom: 20px;
 }
@@ -28,21 +28,21 @@
 .page-hero h1 {
     font-size: 56px;
     margin-bottom: 25px;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 .page-hero p {
     max-width: 700px;
     font-size: 22px;
     line-height: 1.8;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255,.75);
 }
 
 /* Timeline */
 
 .timeline-section {
     padding: 120px 8%;
-    background: #F5F4FA;
+    background: #0E051F;
 }
 
 .timeline {
@@ -55,7 +55,7 @@
 }
 
 .step {
-    background: #FFFFFF;
+    background: #1E103F;
 
     border: 1px solid rgba(109, 94, 245, 0.15);
 
@@ -88,11 +88,11 @@
 .step h2 {
     font-size: 32px;
     margin-bottom: 15px;
-    color: #1A1150;
+    color: #F5F2FF;
 }
 
 .step p {
-    color: #5A5080;
+    color: #998CC4;
     line-height: 1.8;
     font-size: 18px;
 }
@@ -110,6 +110,6 @@
     transition:.3s;
 }
 .step-btn:hover{
-    background:#5A4CE0;
+    background:#5B4CE0;
     transform:translateY(-3px);
 }
